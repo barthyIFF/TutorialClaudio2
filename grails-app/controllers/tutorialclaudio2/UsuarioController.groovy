@@ -1,5 +1,6 @@
 package tutorialclaudio2
 
 class UsuarioController {
-	def scaffold = Usuario
+	//def scaffold = Usuario
+	def index() { }
 }
