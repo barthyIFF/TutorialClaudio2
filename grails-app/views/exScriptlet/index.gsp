@@ -8,13 +8,6 @@
 <h2>Ex3: Loops nas visões.</h2>
 
 
-<%
-	def lista = tutorialclaudio2.Usuario.list()
-	for (item in lista) {
- %> 
- 	${item.nome}<br>
- <%
-	}
- %>
+
 
 </html>
