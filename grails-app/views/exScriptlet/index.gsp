@@ -7,14 +7,7 @@
 </p>
 <h2>Ex3: Loops nas visões.</h2>
 
-<%
-	def lista = Usuario.list()
-	for (item in lista) {
- %> 
- 	${item.nome}<br>
- <%
-	}
- %>
+
 
 
 </html>
