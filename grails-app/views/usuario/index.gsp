@@ -4,8 +4,9 @@
 	<title>11/08/15</title>
 </head>
 <body>
+<h1>Lista de usuarios cadastrados</h1>
 <g:each in="${usuarios}" var="usuario" status="i">
-	<h3>${i+1}. ${usuario.nome}</h3><br/>
+	${i+1}. ${usuario.nome}<br/>
 </g:each>
 </body>	
 </html>
