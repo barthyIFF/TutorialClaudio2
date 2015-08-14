@@ -1,20 +1,11 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>11/08/15</title>
 </head>
+<body>
 <p>
-	Continuação dos exemplos sobre as visões do MVC.
+	Last Name: <g:fieldValue bean="${usuario}" field="nome"/><br/>	
 </p>
-<h2>Ex3: Loops nas visões.</h2>
-
-<%
-	def lista = tutorialclaudio2.Usuario.list()
-	for (item in lista) {
-%> 
- 	${item.nome}<br>
-<%
-	}
-%>
-
-
+</body>	
 </html>
