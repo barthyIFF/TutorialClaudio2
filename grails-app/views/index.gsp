@@ -157,9 +157,12 @@
 				controlador. So pra exemplificar eu criarei abaixo um segundo link que aponta para a segunda
 				ação do mesmo controlador. Veja que nesse segundo link eu coloquei 
 				"/nome da app/controlador/acao". 
-				<a href="/TutorialClaudio2/ExScriptlet/Ex2Scriptlet">LINK2</a>.
+				<a href="/TutorialClaudio2/ExScriptlet/Ex2Scriptlet">LINK2</a>.<br>				
 			</p>
-			
+			<br>
+			<p>
+				PENDÊNCIA: Falar sobre a action "hi", mostra o texto sem ter view!!
+			</p>
 
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
