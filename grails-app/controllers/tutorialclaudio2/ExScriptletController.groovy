@@ -8,10 +8,11 @@ class ExScriptletController {
 		 */
 		[usuarios:usuarios]
 	}
+	
 	def ex2Scriptlet() { }
-	/*
-	def hi(){
+		
+	def hi() {
 		render "Hello World"
 	}
-	*/
+	
 }

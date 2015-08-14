@@ -151,7 +151,7 @@
 			<p>
 				Mas voltando as visões, a partir deste ponto vou colocar os outros exemplos no arquivo "index.gsp". 
 				Para ir para essa nossa segunda página, clique no link a seguir:
-				<a href="ExScriptlet">LINK</a>. <br>
+				<a href="ExScriptlet">LINK1</a>. <br>
 				<br>
 				Note no codigo fonte, que no link acima eu usei o nome da minha app, uma "/" e o nome do 
 				controlador. So pra exemplificar eu criarei abaixo um segundo link que aponta para a segunda
@@ -161,7 +161,15 @@
 			</p>
 			<br>
 			<p>
-				PENDÊNCIA: Falar sobre a action "hi", mostra o texto sem ter view!!
+				<u>Observacoes finais:</u><br>
+				- Note que o primeiro link funciona tanto local como no heroku e o segundo so local. 
+				  Isso se deve ao erro que achei ser do banco, mas na verdade era na forma de se 
+				  referenciar ao controlador.<br>
+				  <br>
+				- A seguir criarei um terceiro link apenas para demostrar mais uma maneira de chamar
+				  uma action em um controlador. Perceba no codigo fonte que o controlador consegue
+				  responder algo para o cliente mesmo sem ter uma view. 
+				  <a href="ExScriptlet/hi">LINK3</a>
 			</p>
 
 			<div id="controller-list" role="navigation">
