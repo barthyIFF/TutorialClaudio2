@@ -23,10 +23,10 @@ class ExScriptletController {
 	 * O comando "usuario.save()" vai salvar esses atributos do novo
 	 * objeto na tabela do banco de dados. 
 	 */
-	def save(){			
+	def salvar(){			
 		def usuario = new Usuario(params)
 		usuario.save()		
-		render "Alteracoes efetuadas!!"
+		render "Usuario Adicionado!!"
 	}
 	
 }

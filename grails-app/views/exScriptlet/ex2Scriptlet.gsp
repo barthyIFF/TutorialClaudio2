@@ -13,10 +13,10 @@
 
 <%--Nao esta funcionando, acho que mais uma vez estou tendo problemas pra me referir 
 aos controladores de dentro da view --%>
-<g:form controller="ExScriptlet" action="save">
+<g:form controller="ExScriptlet" action="salvar">
 	<label>Nome: </label>
 	<g:textField name="nome"/><br/>
-	<g:actionSubmit value="salvar alteração"/>
+	<g:actionSubmit value="salvar alteração" action="salvar"/>
 </g:form>
 <g:createLink controller="ExScriptlet" action="hi" />
 </body>
