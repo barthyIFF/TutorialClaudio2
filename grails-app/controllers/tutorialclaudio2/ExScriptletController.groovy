@@ -4,4 +4,7 @@ class ExScriptletController {
 
     def index() { }	
 	def ex2Scriptlet() { }
+	def hi(){
+		render "Hello World"
+	}
 }
