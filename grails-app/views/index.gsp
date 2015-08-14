@@ -157,14 +157,15 @@
 				controlador. So pra exemplificar eu criarei abaixo um segundo link que aponta para a segunda
 				ação do mesmo controlador. Veja que nesse segundo link eu coloquei 
 				"/nome da app/controlador/acao". 
-				<a href="/TutorialClaudio2/ExScriptlet/Ex2Scriptlet">LINK2</a>.<br>				
+				<a href="/tutorialclaudio2/ExScriptlet/Ex2Scriptlet">LINK2</a>.<br>				
 			</p>
 			<br>
 			<p>
 				<u>Observacoes finais:</u><br>
 				- Note que o primeiro link funciona tanto local como no heroku e o segundo so local. 
 				  Isso se deve ao erro que achei ser do banco, mas na verdade era na forma de se 
-				  referenciar ao controlador.<br>
+				  referenciar ao controlador. Nao consegui fazer referencias ao pacote 
+				  "tutorialclaudio2" que funcionacem no heroku.<br>
 				  <br>
 				- A seguir criarei um terceiro link apenas para demostrar mais uma maneira de chamar
 				  uma action em um controlador. Perceba no codigo fonte que o controlador consegue
