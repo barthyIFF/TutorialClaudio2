@@ -168,7 +168,7 @@
 				  forma de se referenciar ao controlador. Nao consegui fazer referencias ao pacote 
 				  "tutorialclaudio2" que funcionacem no heroku.<br>
 				  Acho que o problema ocorrera em qq servidor que eu fizer o deploy pq "/TutorialClaudio2/"
-				  é uma referencia local.
+				  é uma referencia local.<br>
 				  <br>
 				- A seguir criarei um quarto link apenas para demostrar mais uma maneira de chamar
 				  uma action em um controlador. Perceba no codigo fonte que o controlador consegue
