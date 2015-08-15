@@ -17,6 +17,7 @@ aos controladores de dentro da view --%>
 	<label>Nome: </label>
 	<g:textField name="nome"/><br/>
 	<g:actionSubmit value="salvar alteração" action="salvar"/>
+	<input type="submit" value="Entrar"/>
 </g:form>
 <g:createLink controller="ExScriptlet" action="hi" />
 </body>
